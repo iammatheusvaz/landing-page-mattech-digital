@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mattech Digital</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="imagens/logo_mattechdigital.svg" alt="Logo da Mattech Digital" width="300">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="#orcamento">Orçamento</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li class="portfolio"><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="introducao">
+      <div class="container">
+        <h1 id="orcamento">Inovação que gera lucro</h1>
+        <a href="produtos.html" class="btn">Pedir orçamento</a>
+      </div>
+  </header>
+  <main>
+    <h2 class="titulo-servicos" id="servicos">Nossos serviços</h2>
+    <div class="box-servicos">
+      <div class="box-content">
+        <img src="svg/ux-interface.svg" width="70" alt="Ícone de UX/UI Design">
+        <h2>UX/UI Design</h2>
+        <p>Você já ouviu falar em Design de Experiência do Usuário? Nossa consultoria disponibiliza este serviço que promete colocar o seu usuário (consumidor) no centro de negócio e lucrar muito com esta atitude.</p>
+      </div>
+      <div class="box-content">
+        <img src="svg/motion-graphic.svg" width="70" alt="Ícone de Motion Design">
+        <h2>Motion Design</h2>
+        <p>Quer criar animações para suas mídias sociais e, assim, aumentar o engajamento do seu negócio? Conheça nosso serviço de Motion Design. Seus conteúdos irão prender a atenção do seu usuário.</p>
+      </div>
+      <div class="box-content">
+        <img src="svg/front-end.svg" width="70" alt="Ícone de Desenvolvimento Front End">
+        <h2>Front End Development</h2>
+        <p>Agora se você quer desenvolver um site ou aplicativo para o seu negócio, conte conosco também. Desenvolvemos aplicações totalmente focadas no seu usuário e extremamente acessíveis.</p>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="titulo-clientes" id="clientes">Clientes</h2>
+      <p class="p-clientes">Confira abaixo todos os clientes que atendemos em 1 ano de empresa</p>
+      <div class="logos-clientes">
+        <img src="logos/blockchain-logo-01.svg" height="130" alt="">
+        <img src="logos/brainstorm-logo-01.svg" height="130"  alt="">
+        <img src="logos/sup-logo-01.svg" height="130"  alt="">
+        <img src="logos/accouting-logo-01.svg" height="130"  alt="">
+        <img src="logos/education-logo.svg" height="130"  alt="">
+        <img src="logos/run-logo-01.svg" height="130"  alt="">
+      </div>
+    </div>
+
+    <div>
+      <h2 class="titulo-contato" id="contato">Contato</h2>
+      <form action="" method="POST" class="box-form">
+        <div class="box-double-form">
+          <label for="nome">Nome</label>
+          <input type="text" id="nomeid" placeholder="Digite o seu nome" required="required" name="nome" />
+        </div>
+        
+        <div class="box-double-form">
+          <label for="fone">Número de telefone</label>
+          <input type="tel" id="foneid" placeholder="Digite seu número de telefone" name="fone" />
+        </div>
+        
+        <div class="box-double-form">
+          <label for="email">E-mail</label>
+          <input type="email" id="emailid" placeholder="Digite seu e-mail" name="email" />
+        </div>
+        
+        <div class="box-double-form">
+          <label for="texto">Qual é sua dúvida?</label>
+          <textarea placeholder="Deixe sua dúvida, crítica ou sugestão"></textarea>
+        </div>
+
+        <input type="submit" class="enviar" value="Enviar" />
+      </form>
+    </div>    
+  </main>
+</body>
+
+</html>
